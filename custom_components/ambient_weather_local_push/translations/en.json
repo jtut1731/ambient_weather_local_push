@@ -1,0 +1,16 @@
+{
+  "title": "Ambient Weather Local Push",
+  "config": {
+    "create_entry": {
+      "default": "To finish setup, configure the Ambient Weather custom server to send data to Home Assistant with these values:\n\n- Host: `{host}`\n- Path: `{path}`\n- Port: `{port}`\n- Protocol Type: Ambient Weather\n\nThe `?q=1` in the path is intentional. Ambient Weather stations append update parameters with `&PASSKEY=...`; the `q=1` placeholder makes the final request a valid query string and is ignored by this integration.\n\nIn the AWNET app, open your station, enable the customized server / custom server upload, enter the values above, choose the Ambient Weather protocol, then save."
+    },
+    "step": {
+      "user": {
+        "data": {
+          "station_name": "Station name"
+        },
+        "description": "Create a local webhook endpoint for an Ambient Weather station."
+      }
+    }
+  }
+}

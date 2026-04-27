@@ -1,0 +1,13 @@
+{
+  "domain": "ambient_weather_local_push",
+  "name": "Ambient Weather Local Push",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["webhook"],
+  "documentation": "https://github.com/your-github-user/ambient_weather_local_push",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/your-github-user/ambient_weather_local_push/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
