@@ -10,6 +10,8 @@ with any other models.
 - WS-2000
 
 ## Installation with HACS
+[![Open your Home Assistant instance and open a repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jtut1731&repository=ambient_weather_local_push&category=integration)
+
 
 1. Add this repository as a custom HACS integration repository.
 2. Install **Ambient Weather Local Push**.
