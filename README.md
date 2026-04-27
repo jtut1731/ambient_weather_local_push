@@ -3,6 +3,11 @@
 Home Assistant custom integration for Ambient Weather stations using the local
 custom server push protocol.
 
+Sensor definitions and calculations are based on
+[tlskinneriv/awnet_local](https://github.com/tlskinneriv/awnet_local), adapted
+for direct webhook ingestion without the need for any Home Assistant Apps such
+as [AWNET](https://github.com/tlskinneriv/hassio-addons/tree/master/awnet).
+
 Developed and tested with WS-2000. Please create an Issue and report if it works
 with any other models.
 
@@ -27,8 +32,3 @@ with any other models.
 > the query string keeps the webhook request valid for Home Assistant.
 
 <img width="735" height="427" alt="image" src="https://github.com/user-attachments/assets/e8762e37-86df-4dbc-9371-fba77fd4cebe" />
-
-Sensor definitions and calculations are based on
-[tlskinneriv/awnet_local](https://github.com/tlskinneriv/awnet_local), adapted
-for direct webhook ingestion without the need for any Home Assistant Apps such
-as [AWNET](https://github.com/tlskinneriv/hassio-addons/tree/master/awnet).
